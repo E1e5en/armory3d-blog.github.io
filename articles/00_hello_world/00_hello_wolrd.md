@@ -19,7 +19,7 @@ Visual programming (*Logic node*) also allows you to quickly get used to and und
 
 **Installation**
 
-1. Download *Blender* (https://www.blender.org/download/). Currently version 2.83.4.
+1. Download *Blender* (https://www.blender.org/download/). At the moment, the latest version of 2.83.4.
 2. Download *Armory3D* (https://armory3d.org/download.html). At the moment, the latest version of *ArmorySDK-2020-8* .
 3. Install *Blender*.
 4. Unpack *Armory3D*.
