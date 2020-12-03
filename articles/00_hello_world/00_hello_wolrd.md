@@ -44,7 +44,7 @@ At startup, there will be a standard scene (cube, light, camera). It's enough.
 [![](https://github.com/E1e5en/armory3d-blog.github.io/blob/master/articles/00_hello_world/picture/1.jpg)](1)
 
 Since the *Armory3D* engine is installed, we will see the corresponding item in almost every section of the object properties panel (*Armory Traits*, *Armory Props* and others).
-Save the current scene by creating a folder "*00_hello_world*", save `00_hello_world.blend` in it. And now you can start the current scene on the engine: in the properties panel, in the *Render Properties* section, find the *Armory Player* item and press Play (or by pressing *F5*).
+Save the current scene by creating a folder "*00_hello_world*", save `00_hello_world.blend` in it. And now you can start the current scene on the engine: in the properties panel, in the *Render Properties* section, find the *Armory Player* item and press *Play* (or by pressing *F5*).
 
 [![](https://github.com/E1e5en/armory3d-blog.github.io/blob/master/articles/00_hello_world/picture/2.jpg)](2)
 
@@ -78,7 +78,7 @@ On the properties panel, go to the *Render Properties* section in the *Armory Ex
 [![](https://github.com/E1e5en/armory3d-blog.github.io/blob/master/articles/00_hello_world/picture/7.jpg)](7)  
 
 As a result, the application will be located in the project folder in the `..\build_00_hello_world\krom-windows` directory. Can be copied and redistributed.
-I'll export to HTML5 and post it here (https://e1e5en.github.io/armory3d-blog.github.io/00_hello_world/). So that you can see (having an upload to the web is cool).
+I'll export to *HTML5* and post it here (https://e1e5en.github.io/armory3d-blog.github.io/00_hello_world/). So that you can see (having an upload to the web is cool).
 
 **The achievement "*Hello world*" has been received**
 
