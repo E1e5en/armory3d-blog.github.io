@@ -1,18 +1,18 @@
 ### Achievement "*First Step*"
 
 The first step is to develop simple game mechanics. As it will be a clone of an old game from phones, in which there is a ball, gravity acts on it and the player can move it left and right, while the platforms on which he stands move up. The task is not to let the ball go beyond the edges of the screen (up or down). Such an intricate undertaking.
-In our hands is Blender, in which I throw a game from simple elements.
+In our hands is *Blender*, in which I throw a game from simple elements.
 
 [![](https://github.com/E1e5en/armory3d-blog.github.io/blob/master/articles/01_first_step/picture/1.jpg)](1)
 
 The elements are there, it remains to program them.
-The walls on the left and right are ordinary rectangular parallelepipeds (we add them as child objects to the *WallsLR* object). With 'Rigid Body' with *Passive* type.
-Bottom and top are cones with 'Rigid Bodies' of type *Passive* (add them as child objects to the *WallsTB* object).
-For our main character, the ball, we add a physical body in the form of a 'Rigid Body' with an object for collision in the form of a sphere.
+The walls on the left and right are ordinary rectangular parallelepipeds (we add them as child objects to the *WallsLR* object). With `Rigid Body` with *Passive* type.
+Bottom and top are cones with `Rigid Bodies` of type *Passive* (add them as child objects to the *WallsTB* object).
+For our main character, the ball, we add a physical body in the form of a `Rigid Body` with an object for collision in the form of a sphere.
 Management is as follows:
-1) the player pressed the screen (the On Surface event was triggered);
-2) we get the coordinates where the player clicked, and take the value along the X axis from it (the Surface Coords and Separator XYZ nodes);
-3) get the width of the screen (Window Info node) and divide by 2 to find out the middle of the screen in width;
+1) the player pressed the screen (the `On Surface` event was triggered);
+2) we get the coordinates where the player clicked, and take the value along the X axis from it (the `Surface Coords` and `Separator XYZ` nodes);
+3) get the width of the screen (`Window Info` node) and divide by 2 to find out the middle of the screen in width;
 4) we compare the obtained values, if the value is greater, then it means that the player clicked on the right side of the screen, and apply force to the ball along the X axis with a value of 0.5 (i.e., move to the right), and apply the value -0.5, if left side of the screen.
 
 [![](https://github.com/E1e5en/armory3d-blog.github.io/blob/master/articles/01_first_step/picture/2.jpg)](2)
