@@ -57,7 +57,7 @@ As a result, the scene looks like this.
 [![](https://github.com/E1e5en/armory3d-blog.github.io/blob/master/articles/01_first_step/picture/11.jpg)](11)
 
 The check property for the block (*Blocks*) was added so that the respawn message is sent once, since "Physically" the block intersects with the trigger for some time and the event is executed every frame, but we need to execute only once.
-You can launch this miracle in the browser using the link or put it on your Android smartphone.
+You can launch this miracle in the browser using the [link](https://github.com/E1e5en/armory3d-blog.github.io/tree/master/01_first_step "link") or put it on your [Android](https://github.com/E1e5en/armory3d-blog.github.io/releases/download/v1/retroball.apk "Android") smartphone.
 
 
 **The achievement "*First Step*" has been received**
