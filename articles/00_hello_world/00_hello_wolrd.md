@@ -23,7 +23,7 @@ Visual programming (*Logic node*) also allows you to quickly get used to and und
 2. Download *Armory3D* (https://armory3d.org/download.html). At the moment, the latest version of *ArmorySDK-2020-8* .
 3. Install *Blender*.
 4. Unpack *Armory3D*.
-5. Install the engine. It is installed like a regular add-on in *Blender*: select *Edit* -> *Preferences* -> *Add-ons*, find the Install button, select `armory.py` in the engine directory. As soon as *Render: Armory* appears in the list of addons, check the box next to it and restart *Blender*.
+5. Install the engine. It is installed like a regular add-on in *Blender*: select *Edit* -> *Preferences* -> *Add-ons*, find the *Install* button, select `armory.py` in the engine directory. As soon as *Render: Armory* appears in the list of addons, check the box next to it and restart *Blender*.
 6. Done.
 
 The link to the documentation is https://github.com/armory3d/armory/wiki.
