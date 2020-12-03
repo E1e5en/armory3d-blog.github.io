@@ -6,9 +6,9 @@ In our hands is Blender, in which I throw a game from simple elements.
 -
 
 The elements are there, it remains to program them.
-The walls on the left and right are ordinary rectangular parallelepipeds (we add them as child objects to the WallsLR object). With Rigid Body with Passive type.
-Bottom and top are cones with Rigid Bodies of type Passive (add them as child objects to the WallsTB object).
-For our main character, the ball, we add a physical body in the form of a Rigid Body with an object for collision in the form of a sphere.
+The walls on the left and right are ordinary rectangular parallelepipeds (we add them as child objects to the *WallsLR* object). With 'Rigid Body' with *Passive* type.
+Bottom and top are cones with 'Rigid Bodies' of type *Passive* (add them as child objects to the *WallsTB* object).
+For our main character, the ball, we add a physical body in the form of a 'Rigid Body' with an object for collision in the form of a sphere.
 Management is as follows:
 1) the player pressed the screen (the On Surface event was triggered);
 2) we get the coordinates where the player clicked, and take the value along the X axis from it (the Surface Coords and Separator XYZ nodes);
