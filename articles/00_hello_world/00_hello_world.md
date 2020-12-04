@@ -14,7 +14,7 @@
 - Android, iOS
 - PS4, Xbox One, Switch
 
-You can read about the Haxe language here https://haxe.org/documentation/introduction/, in general, game engines (*Kha*, *Heaps*, *OpenFL* and others) have been developed in this language and games such as *Dead Cells* have been created on them. *Northgard*, *Papers, Please* and others. It itself is similar to C#.
+You can read about the Haxe language here https://haxe.org/documentation/introduction/, in general, game engines/frameworks (*Kha*, *Heaps*, *OpenFL* and others) have been developed in this language and games such as *Dead Cells* have been created on them. *Northgard*, *Papers, Please* and others. It itself is similar to C#.
 Visual programming (*Logic node*) also allows you to quickly get used to and understand what functions are in the tool and do something simple. Of course, creating complex algorithms using nodes is dreary, time consuming and (paradoxically) difficult, but no one bothers to use both the Haxe code and visual programming (you can create your own node with the algorithm and then use it). This is already a jungle, but I will use this particular method until I get bored, because it looks beautiful and interesting, as if you are playing a game, creating a game (such a *Human Resource Machine* and *7 Billion Humans* are obtained).
 
 **Installation**
